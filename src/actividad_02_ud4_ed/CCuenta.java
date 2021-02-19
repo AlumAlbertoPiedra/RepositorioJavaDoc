@@ -56,7 +56,7 @@ public class CCuenta {
    
     /**
      *Devuelve el nombre de la cuenta.
-     * @return nombre de la cuenta.
+     * @return <code>nombre</code> devuelve el nombre de la cuenta.
      */
     public String obtenerNombre()
     {
@@ -65,7 +65,7 @@ public class CCuenta {
     
     /**
      *Devuelve la cantidad de salario en la cuenta.
-     * @return salario de la cuenta.
+     * @return <code>saldo</code> devuelve el salario de la cuenta.
      */
     
      public double estado ()
@@ -76,7 +76,7 @@ public class CCuenta {
     /**
      *Ingresar cantidad de saldo a la cuenta
      * @param cantidad cantidad a ingresar.
-     * @throws Exception 
+     * @throws Exception No se puede ingresar una cantidad menor que 0
     */
     
     public void ingresar(double cantidad) throws Exception
@@ -89,7 +89,7 @@ public class CCuenta {
     /**
      *Retirar cantidad de saldo a la cuenta.
      * @param cantidad cantidad a retirar.
-     * @throws Exception 
+     * @throws Exception  No puede retirar una cantidad de saldo negativo ni superar el saldo.
      */
     
     public void retirar (double cantidad) throws Exception
@@ -103,7 +103,7 @@ public class CCuenta {
     
     /**
      * Devuelve la cuenta bancaria.
-     * @return la cuenta bancaria.
+     * @return <code>cuenta</code> devuelve la cuenta bancaria.
      */
     
     public String obtenerCuenta ()
@@ -130,7 +130,7 @@ public class CCuenta {
 
   /**
    *Devuelve el tipo de interes de la cuenta bancaria
-   * @return el tipo de interes de la cuenta bancaria.
+   * @return <code>tipoInterés</code> devuelve el tipo de interes de la cuenta bancaria.
    */
   public double getTipoInterés() {
     return tipoInterés;

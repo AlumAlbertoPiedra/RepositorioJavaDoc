@@ -72,6 +72,11 @@ public class Main {
         saldoActual = cuenta1.estado();
         System.out.println("El saldo actual es"+ saldoActual );
     }
+    /**
+     *@param cuenta1 parametro de la clase cuenta
+     * @param cantidad cantidad de sueldo que se añade o retira.
+     * @param opcion elegir si retirar o añadir sueldo a la cuenta.
+     */
     public static void operativa_cuenta(CCuenta cuenta1, float cantidad,int opcion){
         if(opcion==2){
             try 
