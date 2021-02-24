@@ -13,12 +13,12 @@ package actividad_02_ud4_ed;
 public class CCuenta {
 
 
-  /**
+ /**
    * Nombre de la persona propietaria de la cuenta.
    * Numero de la cuenta bancaria.
    * Saldo que tiene la cuenta bancaria.
    * Tipo de interes bancario.
-   */
+   */ 
   protected String nombre;
     private String cuenta;
     private double saldo;
