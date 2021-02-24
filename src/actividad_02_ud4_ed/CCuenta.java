@@ -15,8 +15,8 @@ public class CCuenta {
 
  /**
    * Nombre de la persona propietaria de la cuenta.
-   * Numero de la cuenta bancaria.
-   * Saldo que tiene la cuenta bancaria.
+   * Numero de la cuenta bancaria del usuario.
+   * Saldo que tiene la cuenta bancaria del usuario.
    * Tipo de interes bancario.
    */ 
   protected String nombre;
